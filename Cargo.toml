@@ -3,6 +3,7 @@ name = "keypair-rs"
 version = "0.1.0"
 edition = "2021"
 authors = ["Toni.Dev <toni.dumancic3@gmail.com", "Used in redstone project"]
+description = "Keypair secp256k1 with blake2b hashing, keypairs similar to ethereum"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
