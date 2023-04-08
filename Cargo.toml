@@ -1,6 +1,6 @@
 [package]
 name = "keypair-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Toni.Dev <toni.dumancic3@gmail.com", "Used in redstone project"]
 description = "Keypair secp256k1 with blake2b hashing, keypairs similar to ethereum"
