@@ -22,10 +22,6 @@ impl Keypair {
         let secp = Secp256k1::new();
         let mut rng = OsRng;
         let (secret_key, public_key) = secp.generate_keypair(&mut rng);
-        // Keypair {
-        //     private_key: secret_key.to_string(),
-        //     public_key: public_key.to_string(),
-        // }
         Keypair {
             private_key: secret_key.display_secret().to_string(),
             public_key: public_key.to_string(),
@@ -100,4 +96,5 @@ mod tests {
     }
     // cargo test -- --nocapture
 }
+
 
